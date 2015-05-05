@@ -10,7 +10,7 @@ Package.describe({
   name: packageName,
   summary: 'JWT(JSON Web Token) encode and decode module',
   version: '0.3.0',
-  // documentation: 'meteor/README.md',
+  documentation: null,
   git: 'https://github.com/hokaccha/node-jwt-simple.git'
 });
 
