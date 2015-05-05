@@ -4,12 +4,12 @@
 var packageName = 'outatime:jwt-simple';
 var where = 'server';  // where to install: 'client' or 'server'. For both, pass nothing.
 
-var packageJson = JSON.parse(Npm.require("fs").readFileSync('package.json'));
+// var packageJson = JSON.parse(Npm.require("fs").readFileSync('package.json'));
 
 Package.describe({
   name: packageName,
-  summary: packageJson.description,
-  version: packageJson.version,
+  summary: 'JWT(JSON Web Token) encode and decode module',
+  version: '0.3.0',
   // documentation: 'meteor/README.md',
   git: 'https://github.com/hokaccha/node-jwt-simple.git'
 });
